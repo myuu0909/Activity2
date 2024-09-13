@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All about anime..</title>
+    <link rel="stylesheet" href="../css/table.css">
+</head>
+<body>
+    <header>
+        <div>
+              <h1> <b>ANIME</b> </h1>
+            <h1> All you want to know about anime </h1>
+        </div>
+        <div class="container">
+            <a href="../index.html">HOME</a> |
+            <a href="../pages/about.html">ABOUT</a> |
+            <a href="../pages/Contact Us.html">CONTACT US</a> |
+            <a href="../pages/Inquiry.html">Inquiry</a> |
+            <a href="../pages/Profile.html">PROFILE</a> 
+            <button id="home_btn"><a href="login.html">LOG IN</a></button>
+        </div>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="../page2/Headings.html">Headings</a></li>
+                <li><a href="../page2/table.html">Tables</a></li>
+                <li><a href="../page2/Images.html">Image</a></li>
+                <li><a href="../page2/Forms.html">Forms</a></li>
+          
+            </ul>
+        </nav>
+        <article>
+            <div class="form1">
+                <form action="tables.html" method="get">
+                    <label for="fname">FirstName: </label>
+                    <input style="box-sizing: 1%;" type="text" name="fname" id="fname"><br>
+                    <label for="lname">LastName:   </label>
+                    <input type="text" name="lname" id="lname"><br>
+
+                    <label for="datenow">Date: </label>
+                    <input type="date" name="datenow" id="datenow"required><br>
+                    <label for="emailadd">Email: </label>
+                    <input type="email" name="emailadd" id="emailadd"required> <br>
+                    <label for="">Button:</label>
+                    <input type="button" value="Reset"><br>
+                    <label for="colorname">Color: </label>
+                    <input type="color" name="colorname" id="colorname"><br>
+                    <label for="filedata">UploadFile: </label>
+                    <input type="file" name="filedata" id="filedata"> <br>
+                    <label for="datatimeData">Data Time Data: </label>
+                    <input type="datetime-local" name="datetimeData" id="datatimeData"> <br>
+                    <label for="passwordData">Password: </label>
+                    <input type="password" name="passwordData" id="passwordData"> <br>
+                    <label for="Anime">Selection: </label>
+                    <select name="Anime" id="Anime">
+                        <option value="">--Choose an Anime--</option>
+                        <option value="Nanatsu No Taizai">Nanatsu No Taizai</option>
+                        <option value="Death Note">Death Note</option>
+                        <option value="Hyouka">Hyouka</option>
+                        <option value="Mankitsu Happening">Mankitsu Happening</option>
+                    </select><br><br>
+                    <button disabled>Disabled Button</button><br><br>
+                    <fieldset>
+                        <legend>Languages</legend>
+                        <input type="radio" id="english" name="language" value="English">
+                        <label for="english">English</label>
+                        <input type="radio" id="hindi" name="language" value="Hindi">
+                        <label for="hindi">Hindi</label>
+                        <input type="radio" id="filipino" name="language" value="Filipino">
+                        <label for="filipino">Filipino</label>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Message</legend>
+                        <textarea name="message" id="message" placeholder="Please Input Your Message"></textarea>
+                    </fieldset><br>
+                    <label for="answer">Data List: </label>
+                    <input list="values" name="answer">
+                    <datalist id="values">
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="C#">C#</option>
+                        <option value="PHP">PHP</option>
+                    </datalist><br><br>
+                </form>
+                <input type="submit" value="submit">
+            </div>
+            <div class="form2">
+                <form action="formpost.php" method="post">
+                <fieldset>
+                    <legend><b>Form Input Data</b></legend>
+                    <label for="name">Enter Your Name: </label>
+                    <input type="text" name="name" id="name"> <br>
+                    <label for="age">Enter Your Age: </label>
+                    <input type="number" name="age" id="age"> <br>
+                    <label for="dataMonth">Input Month: </label>
+                    <input type="month" name="dataMonth" id="dataMonth"> <br>
+                    <label for="dataWeek">Week: </label>
+                    <input type="week" name="dataWeek" id="dataWeek"> <br>
+                    <label for="dataTime">Time:</label>
+                    <input type="time" name="dataTime" id="dataTime"><br><br>
+                    <input type="submit" value="submit">
+                </fieldset>
+                </form>
+            </div>
+        </article>
+        <footer>
+            <br><hr>
+            <h1>Lol This Is A Website</h1>
+            <div>
+                <a href="../page3/Refund.html">Refund policy</a> |
+                <a href="../page3/Term of Use.html">Term of Use</a> |
+                <a href="../page3/Privacy.html">Privacy</a> |
+                <a href="faq.html">News</a> |
+                <a href="../page3/Affiliates.html">Affiliate</a> 
+            </div>
+            <div>
+                <p><h4>Copyright @ Any anime sites</h4></p>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
